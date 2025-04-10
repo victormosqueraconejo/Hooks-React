@@ -25,6 +25,8 @@ import ParImpar from '../hooks/useMemo/ejercicio3.jsx'
 import ContadorConUseReduce from '../hooks/useReducer/ejercicio1.jsx'
 import Formulario from '../hooks/useReducer/ejercicio2.jsx'
 import SimpleShoppingCart from '../hooks/useReducer/ejercicio3.jsx'
+import ContrasenaUseId from '../hooks/useId/ejercicio1.jsx'
+import FormUseId from '../hooks/useId/ejercicio2.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -60,6 +62,10 @@ createRoot(document.getElementById('root')).render(
     <ContadorConUseReduce />    
     <Formulario />
     <SimpleShoppingCart />
+
+    <ContrasenaUseId />
+    <FormUseId />
+    <ContrasenaUseId />
 
   </StrictMode>,
 )
