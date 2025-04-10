@@ -9,7 +9,7 @@ export default function Ejemplo1UseEffect() {
 
   return (
     <div className='componente'>
-        <h1>EjemploUseEffect Contador</h1>
+        <h1>Ejemplo UseEffect Contador</h1>
         <p>Contador: {contador}</p>
         <button onClick={() => setContador(contador + 1)}>Incrementar</button>
     </div>

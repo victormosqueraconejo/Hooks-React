@@ -16,7 +16,7 @@ const CambiarEstilosBox = () => {
 
   return (
     <div className="componente">
-        <h1>Cambiar Estilos</h1>
+        <h1>Cambiar Estilos useLayoutEffect</h1>
         <div ref={boxRef}>Este div cambia tamaño antes de renderizar</div>
 
     </div>

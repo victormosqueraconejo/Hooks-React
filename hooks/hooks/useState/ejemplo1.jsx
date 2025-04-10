@@ -8,7 +8,7 @@ export const Contador = () => {
     }
   return (
     <div className='componente'>
-        <h1>Contador</h1>
+        <h1>Contadorcon useState</h1>
         <div className='contenido'>
           <button onClick={handleClick}>
               Hiciste clic {contador} veces
